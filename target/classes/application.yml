@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      #虚拟机的ip地址
+      host: 192.168.128.131
+      #库名
+      database: articledb
+      #端口号
+      port: 27017
+      #也可以使用uri连接
+      #uri: mongodb://192.168.128.131:27017/articledb
